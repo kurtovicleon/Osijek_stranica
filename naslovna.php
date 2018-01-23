@@ -15,7 +15,7 @@
                 <div class="content">
                     <h2>Svi događji na jednom mjestu </h2>
                 <a class="button" href="login.php">Prijavi događaj</a>
-                <a class="button" href="nitro">Pogledaj događaje</a>
+                <a class="button" href="prijavadogadaja.php">Pogledaj događaje</a>
                 </div>
             </div> 
             </div>
