@@ -15,11 +15,17 @@
  
 			</head>
 	<body>
-	 	<?php 	include_once "loginbox.php" ?>
-   		<?php 	include_once "skripte.php" ?>
 
 
+
+
+    
+	 	<?php 	include_once "include/loginbox.php"; ?>
+   		<?php 	include_once "include/skripte.php"; ?>
+
+       
 
 	</body>
+    
 </html>
 

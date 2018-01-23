@@ -47,7 +47,16 @@ h2
 	width: 100%;
 	margin-bottom: 20px;
 }
-.loginBox input[type="text"],
+.loginBox input[type="email"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: rgb(22, 214, 80);
+	font-size: 16px;
+}
 .loginBox input[type="password"]
 {
 	border: none;
@@ -55,7 +64,7 @@ h2
 	background: transparent;
 	outline: none;
 	height: 40px;
-	color: rgb(155, 13, 13);
+	color: rgb(46, 24, 243);
 	font-size: 16px;
 }
 ::placeholder
