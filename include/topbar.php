@@ -3,7 +3,7 @@
     <span data-responsive-toggle="topbar-responsive" data-hide-for="medium">
       <button class="menu-icon" type="button" data-toggle></button>
     </span>
-    <a class="topbar-responsive-logo" href="#"><strong>Događaji Osijek</strong></a>
+    <a class="topbar-responsive-logo" href="#"><strong><?php echo $naslovapp; ?></strong></a>
   </div>
   <div id="topbar-responsive" class="topbar-responsive-links">
     <div class="top-bar-right">
