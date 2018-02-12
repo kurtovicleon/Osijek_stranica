@@ -9,11 +9,11 @@ body
 .loginBox
 {
 	position: absolute;
-	top: 50%;
+	top: 55%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 	width: 350px;
-	height: 420px;
+	height: 450px;
 	padding: 80px 40px;
 	box-sizing: border-box;
 	background: rgba(0,0,0,.5);
@@ -54,8 +54,9 @@ h2
 	background: transparent;
 	outline: none;
 	height: 40px;
-	color: rgb(22, 214, 80);
+	color: rgb(241, 252, 241);
 	font-size: 16px;
+	font-weight:bolder;
 }
 .loginBox input[type="password"]
 {
@@ -64,8 +65,9 @@ h2
 	background: transparent;
 	outline: none;
 	height: 40px;
-	color: rgb(46, 24, 243);
+	color: rgb(250, 244, 244);
 	font-size: 16px;
+	font-weight:bolder;
 }
 ::placeholder
 {
@@ -81,6 +83,7 @@ h2
 	background: #ff267e;
 	cursor: pointer;
 	border-radius: 20px;
+	font-weight:bolder;
 }
 .loginBox input[type="submit"]:hover
 {

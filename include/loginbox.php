@@ -11,11 +11,12 @@
 				<p>Lozinka</p>
 				<input type="password" name="lozinka" placeholder="Vaša lozinka">
 			
-			<input type="submit" class="button expanded" value="Prijava" ></input>
+			<input type="submit" class="button expanded" value="Prijava"  ></input>
 			<?php if(isset($_GET["neuspjelo"])){
-					echo "Neispravna kombinacija email/lozinka";
+					echo "<p style='color:red;'>"."Neispravna kombinacija"."</p>" ;
+				
 				} ?>
-			
-				<a href="#">Zaboravljena lozinka?</a>
+			<label>
+				<a href="#">Zaboravljena lozinka?</a></label>
 			</form>
 		</div>

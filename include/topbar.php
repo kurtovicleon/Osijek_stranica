@@ -14,7 +14,11 @@
         <li><a href="kategorije/Profil.php">Profil</a></li>
         <li><a href="kategorije/Kontakt.php">Kontakt</a></li>
         <li>
-          <button type="button" class="button hollow topbar-responsive-button">Log out</button>
+        <?php if(isset($_SESSION["autoriziran"])): ?>
+        <a href="<?php echo $putanjaapp;?>logout.php"><button type="button" class="button hollow topbar-responsive-button"><?php echo $_SESSION["autoriziran"];?></button></a>
+        	<?php else: ?>
+          <button type="button" class="button hollow topbar-responsive-button"><a href="<?php echo $putanjaapp;?>login.php">Prijava</a></button>
+<?php endif;?>
         </li>
       </ul>
     </div>

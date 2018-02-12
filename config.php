@@ -1,4 +1,4 @@
 <?php
 session_start();
-$putanjaapp="/Osijek_stranica-/";
+$putanjaapp="/Foundationstranica/Osijek_stranica-/";
 $naslovapp="Osijek događaji";
