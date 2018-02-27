@@ -13,7 +13,6 @@
 	<?php print_r($_SESSION); ?>
  <?php include_once "include/topbar.php";?>
 
-
       
 	 	<?php 	include_once "include/loginbox.php"; ?>
    		<?php 	include_once "include/skripte.php"; ?>

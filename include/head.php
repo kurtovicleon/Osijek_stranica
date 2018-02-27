@@ -6,3 +6,4 @@
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/naslovna.css">
     <link rel="stylesheet" href="css/loginstil.css">
+    <?php echo $_SERVER["PHP_SELF"] ?>
