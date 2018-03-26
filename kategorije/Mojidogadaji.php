@@ -7,7 +7,7 @@
     
 			</head>
 	<body>
-	<?php print_r($_SESSION); ?>
+
 
 
         <?php include_once "../include/topbar.php";?>

@@ -2,7 +2,7 @@
 
 function stavkaizbornika($putanja,$opis){
 ?>
-<li<?php echo $_SERVER["PHP_SELF"] === $putanja ? "class=\"active\"" : "";?>>
+<li><?php echo $_SERVER["PHP_SELF"] === $putanja ? "class=\"active\"" : "";?>
 <a href="<?php echo $putanja;?>"><?php echo $opis;?></a>
 </li>
 <?php
